@@ -15,6 +15,7 @@ let isConnected = false;
         isConnected=true;
         console.log("mongoDb is connected")
     } catch (error) {
+        console.log(error);
         
     }
 }
